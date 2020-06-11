@@ -1,1 +1,146 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+    font-size: 90%;
+    font-family: Helvetica, sans-serif;
+}
+h1{
+    font-size: 3rem;
+    margin: 2rem 2rem 2rem 2rem;
+    text-align: center;
+}
+h2{
+    font-size: 2rem;
+    margin: 2rem 2rem 2rem 2rem;
+    text-align: center;
+}
+.nav {
+    display: flex; 
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 2rem 2rem 2rem 2rem;
+}
+.nav a{
+    border: solid red 1px;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    flex-shrink: 3;
+    font-size: 1.5rem;
+    background-color: darkolivegreen;
+    color: floralwhite;
+    text-align: center;
+
+}
+.nav a:hover{
+      color: black;
+      background-color: khaki;
+      text-decoration: none;
+}
+.nav a{
+    text-decoration: none;
+  }
+header{
+      background-color: grey;
+      padding: 1rem 1rem 1rem 1rem;
+  }
+footer{
+    display: flex; 
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: sandybrown;
+    padding: 4rem 4rem 4rem 4rem;
+}
+footer div{
+    border: solid purple 1px;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    flex-shrink: 3;
+    font-size: 1.5rem;
+    background-color: cyan;
+    color: floralwhite;
+    text-align: center;
+}
+footer div:hover{
+      background-color: saddlebrown;
+      color: salmon;
+}
+
+p, a{
+    text-decoration: none;
+    text-align: center;
+}
+.lorem {
+      margin: 3rem 3rem 3rem 3rem;
+      line-height: 3rem;
+}
+div .body{
+    display:flex;
+    margin: 0rem 0rem 1rem 0rem;
+    flex-shrink: 1;
+}
+div .second{
+    display:flex;
+    margin: 2rem 2rem 0rem 2rem;
+    flex-shrink: 1;
+    justify-content: center;
+}
+.second img{
+    margin: 2rem 2rem 2rem 2rem;
+    align-items:center;
+    border-radius: 25px;
+}
+.second p{
+    align-items: center;
+}
+img {
+    max-width:100%;
+}
+.second div{
+    display: flex;
+    align-items: center;
+}
