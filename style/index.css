@@ -48,7 +48,7 @@ table {
 	border-spacing: 0;
 }
 html{
-    font-size: 90%;
+    font-size: 62.5%;
     font-family: Helvetica, sans-serif;
 }
 h1{
@@ -75,6 +75,7 @@ h2{
     background-color: darkolivegreen;
     color: floralwhite;
     text-align: center;
+    border-radius: 0.5rem;
 
 }
 .nav a:hover{
@@ -104,6 +105,7 @@ footer div{
     background-color: cyan;
     color: floralwhite;
     text-align: center;
+    border-radius: 0.5rem;
 }
 footer div:hover{
       background-color: saddlebrown;
@@ -113,6 +115,10 @@ footer div:hover{
 p, a{
     text-decoration: none;
     text-align: center;
+}
+.second div{
+    display:flex;
+    max-width: 10rem;
 }
 .lorem {
       margin: 3rem 3rem 3rem 3rem;
@@ -128,6 +134,7 @@ div .second{
     margin: 2rem 2rem 0rem 2rem;
     flex-shrink: 1;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .second img{
     margin: 2rem 2rem 2rem 2rem;
@@ -153,4 +160,15 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 1rem;
+    border-radius: 0.5rem;
+  }
+  button:hover{
+      color:black;
+      background-color: whitesmoke;
+  }
+  @media (max-width: 500px){
+
+  }
+  @media (max-width: 800px){
+
   }
