@@ -1,174 +1,223 @@
 /* Add CSS styling here */
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
+    background-color: #d37012;
 }
+
+body p {
+    color: #FFFFFF;
+}
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-html{
+
+html {
     font-size: 62.5%;
     font-family: Helvetica, sans-serif;
+    font-size: 1rem;
 }
-h1{
+
+h1 {
     font-size: 3rem;
     margin: 2rem 2rem 2rem 2rem;
     text-align: center;
 }
-h2{
+
+h2 {
     font-size: 2rem;
     margin: 2rem 2rem 2rem 2rem;
     text-align: center;
 }
+
 .nav {
-    display: flex; 
+    display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     margin: 2rem 2rem 2rem 2rem;
 }
-.nav a{
+
+.nav a {
     border: solid red 1px;
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
     flex-shrink: 3;
     font-size: 1.5rem;
     background-color: darkolivegreen;
-    color: floralwhite;
+    color: #00ced1;
     text-align: center;
     border-radius: 0.5rem;
+}
 
-}
-.nav a:hover{
-      color: black;
-      background-color: khaki;
-      text-decoration: none;
-}
-.nav a{
+.nav a:hover {
+    color: #E6CC22;
+    background-color: darkolivegreen;
     text-decoration: none;
-  }
-header{
-      background-color: grey;
-      padding: 1rem 1rem 1rem 1rem;
-  }
-footer{
-    display: flex; 
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+header {
+    background-color: grey;
+    padding: 1rem 1rem 1rem 1rem;
+    color: #600060;
+    text-align: center;
+}
+
+header img {
+    object-fit: cover;
+    width: 100%;
+    height: 40rem;
+}
+
+header div{
+    max-width: 150rem;
+    margin: auto;
+}
+
+footer {
+    display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     background-color: sandybrown;
     padding: 4rem 4rem 4rem 4rem;
 }
-footer div{
+
+footer div {
     border: solid purple 1px;
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
     flex-shrink: 3;
     font-size: 1.5rem;
     background-color: cyan;
-    color: floralwhite;
+    color: #6B8E23;
     text-align: center;
     border-radius: 0.5rem;
 }
-footer div:hover{
-      background-color: saddlebrown;
-      color: salmon;
+
+footer div:hover {
+    color: #FF0000;
 }
 
-p, a{
+p, a {
     text-decoration: none;
     text-align: center;
 }
-.second div{
-    display:flex;
+
+.second div {
     max-width: 10rem;
 }
+
 .lorem {
-      margin: 3rem 3rem 3rem 3rem;
-      line-height: 3rem;
+    margin: 3rem 3rem 3rem 3rem;
+    line-height: 3rem;
 }
-div .body{
-    display:flex;
+
+div .body {
+    display: flex;
     margin: 0rem 0rem 1rem 0rem;
     flex-shrink: 1;
 }
-div .second{
-    display:flex;
-    margin: 2rem 2rem 0rem 2rem;
+
+div .second {
+    display: flex;
+    margin: auto;
     flex-shrink: 1;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
+    max-width: 150rem;
 }
-.second img{
-    margin: 2rem 2rem 2rem 2rem;
-    align-items:center;
+
+.second img {
+    align-items: center;
     border-radius: 25px;
 }
-.second p{
+
+.second p {
     align-items: center;
 }
+
 img {
-    max-width:100%;
+    max-width: 100%;
 }
-.second div{
+
+.second div {
     display: flex;
     align-items: center;
 }
+
 button {
-    background-color: #4CAF50; 
+    background-color: #4CAF50;
     border: none;
-    color: white;
+    color: #5A440D;
     padding: 1rem 2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1rem;
     border-radius: 0.5rem;
-  }
-  button:hover{
-      color:black;
-      background-color: whitesmoke;
-  }
-  @media (max-width: 500px){
+}
 
-  }
-  @media (max-width: 800px){
+button:hover {
+    color: #871A1A;
+    background-color: #4CAF50;
+}
 
-  }
+@media (max-width: 800px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    header h2 {
+        display: none;
+    }
+    header p {
+        display: none;
+    }
+    header ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav {
+        order: 0;
+        align-items: center;
+    }
+    header img {}
+}
+
+@media (max-width: 500px) {}
